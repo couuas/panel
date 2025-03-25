@@ -7,7 +7,6 @@ B() {
     echo -e "\033[31m$1\033[0m"
 }
 C() {
-    C() {
     local D=$(hostname)
     local E=$(echo "$D" | awk -F'[s.]' '{print $2}')
     local F="s${E}.serv00.us.kg"
@@ -17,8 +16,7 @@ C() {
     else
         echo ""
     fi
-}
-    return 1  
+	return 1  
 }
 K() {
     local L="$1"
